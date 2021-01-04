@@ -1,0 +1,446 @@
+body{}
+img {
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header area start */
+
+.slicknav_menu {
+    display: none;
+}
+.header-area {
+    background-size: cover;
+    background: center;
+}
+.header-area .logo {
+    padding-top: 25px;
+}
+.header-area .menu {
+    float: right;
+    margin-top: 55px;
+}
+.header-area .menu ul{}
+.header-area .menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 45px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+.header-area .menu ul li a {
+    text-decoration: none;
+    color: #5a6e79;
+    transition-duration: .3s;
+    transition-property: all;
+}
+.header-area .menu ul li:hover a {
+    color: #ffc178;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.header-area .button{}
+.header-area .button a {
+    text-decoration: none;
+    color: #ffc178;
+    float: right;
+    background: #fff;
+    padding: 13px 30px;
+    margin-top: 42px;
+    border-radius: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.header-area .head{}
+.header-area .head h3 {
+    font-size: 40px;
+    line-height: 56px;
+    color: #ffc178;
+    padding-top: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.header-area .span {
+    padding-top: 10px;
+}
+.header-area .span span {
+    color: #5a6e79;
+    line-height: 26px;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.header-area .visit {
+    padding-top: 65px;
+    padding-bottom: 450px;
+}
+.header-area .visit a {
+    text-decoration: none;
+    color: #fff;
+    background: #ffc178;
+    font-size: 18px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* header area end */
+
+/* department area start */
+
+.department {
+    margin-top: -80px;
+}
+.department .head{}
+.department .head h2 {
+    font-size: 40px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+.department .text {
+    padding-bottom: 70px;
+    padding-top: 15px;
+}
+.department-t .text span {
+    color: #5a6e79;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+.department .img-sec .main{}
+.department .img-sec .main img{}
+.department .img-sec .main {
+    position: relative;
+}
+.department .img-sec .main a {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 80px;
+    font-size: 30px;
+    right: 0;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+/* department area end */
+
+.about{
+    padding-top: 155px;
+}
+.about .img {
+    position: relative;
+}
+.about .img img {
+    width: 115%;
+    margin-left: -175px;
+}
+.about .img a {
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    bottom: 260px;
+    left: 0;
+    right: 75px;
+    text-align: center;
+}
+.about .img a i {
+    font-size: 40px;
+    background: #ffc178;
+    border-radius: 100%;
+    padding: 25px 25px;
+}
+.text-f .text h2 {
+    font-size: 40px;
+    line-height: 56px;
+    color: #252c3a;
+    padding-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.text-f .text span {
+    font-size: 18px;
+    line-height: 26px;
+    color: #5a6e79;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+.about .counter {
+    padding-top: 60px;
+}
+.counter .t1 h2 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.counter .t1 {
+    color: #ffba00;
+    margin-right: 90px;
+}
+
+.counter .t1 span {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.counter .t2 h2 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.counter .t2 {
+    color: #ff5f72;
+    margin-right: 90px;
+}
+
+.counter .t2 span {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+.counter .t3 h2 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.counter .t3 {
+    color: #43cb83;
+}
+
+.counter .t3 span {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+
+.contain {
+    padding-bottom: 15px;
+}
+.atu {
+    padding-bottom: 85px;
+}
+.atu .head {
+    padding-top: 135px;
+    padding-bottom: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.atu .text {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.atu .text:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .atu .text a h2:hover{
+      color: #ffc178;
+      text-decoration: underline;
+  }
+  .atu .text a p:hover{
+      color: #252c3a;
+  }
+.atu .text a {
+    text-decoration: none;
+}
+.atu .text h2 {
+    color: #252c3a;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+.atu .text span {
+    color: #5a6e79;
+    padding-left: 15px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.atu .text p {
+    padding-left: 15px;
+    color: #5a6e79;
+    padding-top: 25px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+
+.footer-top {
+    background: #252c3a;
+}
+.padd {
+    padding: 80px 0;
+}
+
+.footer-top .logo {
+    width: 70%;
+}
+.footer-top .icon a {
+    color: #4a4a4a;
+    margin-right: 15px;
+    font-size: 18px;
+}
+.footer-top .icon a:hover{
+    color: #0089fd;
+}
+.footer-top .textarea .text span {
+    color: #969595;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-top .textarea .text {
+    padding: 25px 0;
+}
+.footer-top .textarea .text {
+    padding: 25px 0;
+    border-bottom: 1px solid #303744;
+    display: inline-block;
+}
+.footer-top .icon {
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+.footer-top .list2 {
+    font-size: 14px;
+}
+
+.footer-top .list2 span {
+    display: inline-flex;
+    line-height: 22px;
+    padding-bottom: 10px;
+    color: #969595;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footer-top .list2 p {
+    font-size: 12px;
+    color: #6b6b6b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footer-top .head2 {
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-top .list2 a{
+    text-decoration: none;
+}
+.footer-top .head3 {
+    color: #fff;
+    padding-bottom: 50px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-top .list3 ul {
+    float: left;
+    padding-left: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-top .list3 li {
+    list-style: none;
+    padding-bottom: 23px;
+}
+.footer-top .list3 li a {
+    text-decoration: none;
+    color: #969595;
+    font-size: 14px;
+    line-height: 22px;
+}
+.footer-top .head4 {
+    color: #fff;
+    padding-bottom: 50px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-top .text4 {
+    font-size: 13px;
+    color: #969595;
+    line-height: 22px;
+    padding-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-top form input {
+    width: 260px;
+    height: 40px;
+    padding-left: 15px;
+    border: 0;
+}
+form {
+    position: relative;
+}
+.footer-top button {
+    position: absolute;
+    background: #ffc178;
+    border: 0;
+    color: #fff;
+    width: 80px;
+    height: 40px;
+    margin-left: -80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.footer-end {
+    background: #1d232e;
+}
+.footer-end .text {
+    color: #6b6b6b;
+    padding: 20px 0;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-end{}
+.footer-end .list{}
+.footer-end .list ul {
+    float: right;
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.footer-end .list ul li {
+    display: inline-block;
+}
+.footer-end .list ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 20px;
+    color: #6b6b6b;
+}
+

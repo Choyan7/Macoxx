@@ -1,0 +1,160 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .department .img-sec .main {
+        margin-bottom: 30px;
+    }
+    .department .img-sec .main-lg {
+        width: 50%;
+    }
+    .about .img a {
+        bottom: 235px;
+        right: 85px;
+    }
+    .footer-top .textarea .text span {
+        font-size: 11px;
+    }
+    .footer-top .list2 {
+        font-size: 12px;
+    }
+    .footer-top .list3 li a {
+        font-size: 12px;
+    }
+    .footer-top form input {
+        width: 220px;
+    }
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .header-area .menu {
+        margin-top: 30px;
+    }
+    .header-area .menu ul li {
+        margin-right: 12px;
+    }
+    .header-area .button a {
+        margin-top: 18px;
+    }
+    .department {
+        margin-top: -60px;
+    }
+    .department .img-sec .main {
+        margin-bottom: 30px;
+    }
+    .about .img a {
+        bottom: 220px;
+        right: 95px;
+    }
+    .footer-top .textarea {
+        padding-bottom: 60px;
+    }
+
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    
+
+    #mobile-menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .header-area .logo {
+        width: 20%;
+    }
+    .header-area .button a {
+        margin-top: -55px;
+    }
+    .header-area .head h3 {
+        padding-top: 80px;
+    }
+    .header-area .visit {
+        padding-bottom: 320px;
+    }
+    .department .img-sec .main {
+        padding-bottom: 30px;
+    }
+    .about .img img {
+        margin-left: -80px;
+    }
+    .about .img a i {
+        font-size: 20px;
+        padding: 20px 20px;
+    }
+    .about .img a {
+        bottom: 115px;
+        right: 20px;
+    }
+    .counter .t1 {
+        margin-right: 40px;
+    }
+    .counter .t2 {
+        margin-right: 40px;
+    }
+    .counter .t1 h2 {
+        font-size: 25px;
+    }
+    .counter .t2 h2 {
+        font-size: 25px;
+    }
+    .counter .t3 h2 {
+        font-size: 25px;
+    }
+    .counter .t1 span {
+        font-size: 15px;
+    }
+    .counter .t2 span {
+        font-size: 15px;
+    }
+    .counter .t3 span {
+        font-size: 15px;
+    }
+    .footer-top .col-xl-3.col-lg-3.col-md-6 {
+        margin-bottom: 50px;
+    }
+    .footer-end .text {
+        font-size: 11px;
+    }
+    .footer-end .list ul {
+        float: left;
+    }
+    .footer-end .list ul li a {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+ 
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .department .img-sec .main a {
+        font-size: 20px;
+    }
+    .about .img a {
+        bottom: 200px;
+        right: -60px;
+    }
+    .footer-top form input {
+        width: 250px;
+    }
+
+
+
+}
