@@ -50,7 +50,11 @@
         margin-right: 12px;
     }
     .header-area .button a {
-        margin-top: 18px;
+	    margin-top: -70px;
+	    padding: 20px 60px;
+   }
+	.header-area .head h3 {
+	    padding-top: 130px;
     }
     .department {
         margin-top: -60px;
